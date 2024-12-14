@@ -15,7 +15,9 @@ sudo apt install libssl1.1
 or
 
 wget http://ports.ubuntu.com/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_arm64.deb
- sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
+ sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_arm64.deb
+if error apt-get install dialog apt-utils
+
  
 
 
