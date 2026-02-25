@@ -1,0 +1,12 @@
+services:
+  nimble:
+    image: nimble
+    container_name: nimble
+    ports:
+      - "8081:80"
+      - "1936:1936"
+    restart: unless-stopped
+    volumes:
+      - ./rootfs/etc/nimble:/etc/nimble
+      - ./log:/var/log/nimble
+      - ./:/home
